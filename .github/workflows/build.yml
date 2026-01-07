@@ -23,7 +23,7 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - run: chmod +x ./grdlew
+      - run: chmod +x ./gradlew
 
       - run: ./gradlew build
 
@@ -31,4 +31,3 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           files: 1.21.2-1.21.5-fabric/build/libs/*
-      
