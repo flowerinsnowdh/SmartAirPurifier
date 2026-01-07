@@ -1,0 +1,50 @@
+# gradle
+
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+classes/
+!**/src/main/**/classes/
+!**/src/test/**/classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+.classpath
+.project
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+!**/src/main/**/run/
+!**/src/test/**/run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

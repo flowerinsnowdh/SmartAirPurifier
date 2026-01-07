@@ -1,0 +1,11 @@
+{
+    "smart-air-purifier.screen.config.title": "Smart Air Purifier",
+    "smart-air-purifier.constant.true": "true",
+    "smart-air-purifier.constant.false": "false",
+    "smart-air-purifier.screen.config.remove-fog.lava": "Remove lava fog: %s",
+    "smart-air-purifier.screen.config.remove-fog.water": "Remove water fog: %s",
+    "smart-air-purifier.screen.config.remove-fog.blindness": "Remove blindness fog: %s",
+    "smart-air-purifier.screen.config.remove-fog.darkness": "Remove darkness fog: %s",
+    "smart-air-purifier.screen.config.remove-fog.powder-snow": "Remove powder snow fog: %s",
+    "smart-air-purifier.screen.done": "Done"
+}

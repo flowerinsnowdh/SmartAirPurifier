@@ -1,0 +1,24 @@
+[versions]
+fabric-loom-remap = "1.15.0-alpha.25"
+minecraft = "1.21.5"
+fabric-loader = "0.18.4"
+yarn = "1.21.5+build.1"
+fabric-api = "0.128.2+1.21.5"
+modmenu = "14.0.0"
+jackson = "3.0.3"
+jackson-annotations = "2.20"
+jetbrains-annotations = "26.0.2-1"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+yarn = { module = "net.fabricmc:yarn", version.ref = "yarn" }
+fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric-api" }
+modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
+jackson-core = { module = "tools.jackson.core:jackson-core", version.ref = "jackson" }
+jackson-databind = { module = "tools.jackson.core:jackson-databind", version.ref = "jackson" }
+jackson-annotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson-annotations" }
+jetbrains-annotations = { module = "org.jetbrains:annotations", version.ref = "jetbrains-annotations" }
+
+[plugins]
+fabric-loom-remap = { id = "net.fabricmc.fabric-loom-remap", version.ref = "fabric-loom-remap" }

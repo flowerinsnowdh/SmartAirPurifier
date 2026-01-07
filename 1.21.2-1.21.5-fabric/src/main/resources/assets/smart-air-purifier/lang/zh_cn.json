@@ -1,0 +1,11 @@
+{
+    "smart-air-purifier.screen.config.title": "Smart Air Purifier",
+    "smart-air-purifier.constant.true": "true",
+    "smart-air-purifier.constant.false": "false",
+    "smart-air-purifier.screen.config.remove-fog.lava": "移除熔岩下迷雾：%s",
+    "smart-air-purifier.screen.config.remove-fog.water": "移除水下迷雾：%s",
+    "smart-air-purifier.screen.config.remove-fog.blindness": "移除失明迷雾：%s",
+    "smart-air-purifier.screen.config.remove-fog.darkness": "移除黑暗迷雾：%s",
+    "smart-air-purifier.screen.config.remove-fog.powder-snow": "移除细雪下迷雾：%s",
+    "smart-air-purifier.screen.done": "完成"
+}
